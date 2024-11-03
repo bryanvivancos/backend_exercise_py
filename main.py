@@ -11,4 +11,5 @@ app.include_router(users_db.router)
 async def root():
     return "Hola Bryan"
 
+# Inicia el server: uvicorn main:app --reload
 # Url local: http://127.0.0.1:8000/url
