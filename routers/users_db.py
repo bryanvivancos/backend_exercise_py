@@ -20,7 +20,6 @@ def search_user(field: str ,key):
     except:
         return {"error":"No se ha encontrado el usuario"}
 
-    
 ### PETICIONES
 
 # PETICION PARA BUSCAR USUARIOS
